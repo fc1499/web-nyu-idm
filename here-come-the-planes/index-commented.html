@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<!-- the head contains all the metadata, such as style. The components aren't necessarily visibly on the website, but they help define the character set and script. Basically the start of the code, aka you need it for everything else to work. -->
+<head>
+  <!-- link href allows you to add fonts from the web into your html. -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma|Caveat|Gloria+Hallelujah|Righteous|Sigmar+One&display=swap" rel="stylesheet">
+  <!-- title defines what the website would be called once its opened. -->
+  <title>Here Come The Planes</title>
+  <!-- the style tag allows you to change text, font, color, and add CSS. -->
+  <style>
+    /* CSS goes here */
+    /* the body css tag allows you to add attributes to any tags under the html body tag. acts as a default setting for text */
+    body {
+      /* background color defines what color your site will be. */
+      background-color: #a3daf0;
+      /* color tag defines the text color. */
+      color: darkblue;
+      /* text-align tag defines how the text will be formatted. */
+      text-align: center;
+      /* font-size tag defines the size of your text. */
+      font-size: 50px;
+      /* font-family defines the style of text. */
+      font-family: 'Righteous', cursive;
+    }
+      /* the h1 tag allows you to customize the text of all h1 tags in the body */
+    h1 {
+
+      font-size: 100px;
+    }
+
+    h2 {
+      color: darkblue;
+      /* transform allows you to make transformations to a text or image, such as translating it across the page. */
+      transform: translate(300px, -180px);
+      /* text shadow allows you to apply a shadow to a text, making it appear more 3d or like it's glowing. */
+      text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #fdd700, 0 0 30px #fdd700, 0 0 40px #fdd700, 0 0 55px #fdd700, 0 0 75px #fdd700;
+    }
+    /* pre css tags allow you to add attributes to pre html tags. */
+    pre {
+      color: white;
+      transform: translate(-500px, -180px);
+      /* text shadow has three variables, the first determines the x direction of the shadow, the second variable determines the y direction, and the last variable determines the color of the shadow. */
+      text-shadow: 3px 3px black;
+    }
+
+/* the hover tag allows you to make animations or changes to an element when the mouse hovers over it. */
+    pre:hover {
+      color: black;
+      text-shadow: 3px 3px white;
+    }
+/* h3 css tags allow you to add attributes to h3 htmls tags. */
+    h3 {
+      font-family: 'Caveat', cursive;
+      color: black;
+      /* the border tag adds a border to a text or image. */
+      border: 4px solid white;
+      /* margin adds a margin to both sides of the website, meaning the text will not go past it. */
+      margin: 60px;
+      font-size: 90px;
+      transform: translate(0px, -380px);
+      /* border radius rounds the corners of a border */
+      border-radius: 100px;
+      /* multiple shadows can be added on the same text in the same line with a comma */
+      text-shadow: -5px 5px 0px grey, -10px 10px 0px white;
+
+    }
+
+    h3:hover {
+      /* animation name allows you to name your animation when referring to its keyframes, almost like another class. */
+      animation-name: enlarge;
+      /* animation duration defines how long your animation will last. */
+      animation-duration: 3s;
+      /* animation iteration count defines how many times the animation will play. */
+      animation-iteration-count: infinite;
+    }
+/* keyframes allows you to define what animation will happen at each keyframe, ranging from 0 to 100%. */
+    @keyframes enlarge {
+      0% {
+        font-size: 90px;
+      }
+
+      25% {
+        font-size: : 105px;
+      }
+
+      50% {
+        font-size: : 120px;
+      }
+
+      75% {
+        font-size: 105px;
+      }
+
+      100% {
+        font-size: 90px;
+      }
+    }
+/* h4 css tags allow you to add attributes to h4 html tags. */
+    h4 {
+      transform: translate(0px, -550px);
+      font-size: 130px;
+      font-family: 'Gloria Hallelujah', cursive;
+    }
+
+    .gradient {
+      color: red;
+      animation-name: gradient;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+
+    }
+
+    @keyframes gradient {
+
+      0% {
+        color: red;
+      }
+      /* 25% allows you to customize what happens when the animation is 25% done. */
+
+      25% {
+        color: green;
+      }
+      /* 50% allows you to customize what happens when the animation is 50% done. */
+
+      50% {
+        color: cyan;
+      }
+      /* 75% allows you to customize what happens when the animation is 75% done. */
+
+      75% {
+        color: purple;
+      }
+      /* 100% allows you to customize what happens when the animation is 100% done. */
+
+      100% {
+        color: red;
+      }
+    }
+/* the img tag in CSS allows you to customize its attributes, like size. */
+    img {
+      /* width determines how long the image will be in pixels. */
+      width: 150px;
+      /* height determines how tall the image will be in pixels. */
+      height: 150px;
+    }
+    .container {
+      /* position:relative means the element is positioned relative to itself */
+      position: relative;
+      width: 50%;
+    }
+
+    .image {
+      /* display controls the layout of elements, it can be in-line, or block, or have no display meaning it is hidden but the code is apparent. */
+      display: block;
+      width: 150px;
+      height: 150px;
+      transform: translate(50px, 50px);
+    }
+
+    .overlay {
+      /* position: absolute means the element is positioned relative to its nearest positioned ancestor. */
+      position: absolute;
+      /* top tag affects the vertical position of an element, sets the top edge */
+      top: 0;
+      /* bottom tag also affects the vertical position, except it sets the bottom edge. */
+      bottom: 0;
+      /* left tag sets the left edge. */
+      left: 0;
+      /* right tag sets the right edge */
+      right: 100px;
+      height: 200px;
+      width: 200px;
+      /* opacity tag determines how opaque an element will be. it ranges from 0 to 1*/
+      opacity: 0;
+      /* transition allows you to customize property values more smoothly, with an time. */
+      transition: .5s ease;
+      background-color: #a3daf0;
+    }
+
+    .container:hover .overlay {
+            /* opacity tag determines how opaque an element will be. */
+      opacity: 1;
+    }
+
+    .text {
+      color: darkblue;
+      font-size: 100px;
+      /* font families can also have other versions, like cursive or sans serif. by adding '', you can add the name of the font. */
+      font-family: 'Sigmar One', cursive;
+      position: absolute;
+      transform: translate(50px, 50px);
+    }
+
+    .emoji {
+      transform: translate(234px, -100px);
+    }
+/* adding a period in front turns it into a div. */
+    .emoji:hover {
+      /* animation tag includes the animation name and how long the animation lasts, the name comes from the keyframes tag. */
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    }
+
+    .message {
+      transform: translate(710px, -320px);
+      animation: move 3s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes shake {
+/* 0% is when the animation begins. 100% is when the animation ends. This also applied to the from and to tags under keyframes. */
+      0% {
+        transform: translate(235px, -99px) rotate(0deg);
+      }
+/* 10% allows you to customize what happens when the animation is 10% done. */
+      10% {
+        transform: translate(234px, -99px) rotate(-1deg);
+      }
+/* 20% allows you to customize what happens when the animation is 10% done. */
+      20% {
+        transform: translate(232px, -100px) rotate(1deg);
+      }
+/* 30% allows you to customize what happens when the animation is 30% done. */
+      30% {
+        transform: translate(238px, -98px) rotate(0deg);
+      }
+/* 40% allows you to customize what happens when the animation is 40% done. */
+      40% {
+        transform: translate(236px, -101px) rotate(1deg);
+      }
+/* 50% allows you to customize what happens when the animation is 50% done. */
+      50% {
+        transform: translate(234px, -98px) rotate(-1deg);
+      }
+/* 60% allows you to customize what happens when the animation is 60% done. */
+      60% {
+        transform: translate(232px, -99px) rotate(0deg);
+      }
+/* 70% allows you to customize what happens when the animation is 70% done. */
+      70% {
+        transform: translate(238px, -99px) rotate(-1deg);
+      }
+/* 80% allows you to customize what happens when the animation is 80% done. */
+      80% {
+        transform: translate(234px, -101px) rotate(1deg);
+      }
+/* 90% allows you to customize what happens when the animation is 90% done. */
+      90% {
+        transform: translate(236px, -98px) rotate(0deg);
+      }
+/* 100% signifies the end of an animation. */
+      100% {
+        /* the rotate tag allows you to rotate a text or image a certain amount of degrees. */
+        transform: translate(236px, -102px) rotate(-1deg);
+      }
+    }
+
+    @keyframes move {
+      0% {
+        transform: translate(710px, -320px) rotate(360deg);
+      }
+
+      /* CSS STOPS here */
+  </style>
+</head>
+<!-- HTML goes here !-->
+/* the html body tag includes all the elements to a website, like the meat of a burger.  */
+<body>
+/* div tags serve as a container that groups html elements and css tags. */
+  <div class="container">
+  /* img src allows you to import an image from either the web or your computer. */
+    <img src="https://i.pinimg.com/originals/85/7f/d7/857fd79dfd7bd025e4cbb2169cd46e03.png" alt="Avatar" class="image">
+    /* div tags serve as a container that groups html elements and css tags. */
+    <div class="overlay">
+      <div class="text">Hi.</div>
+      /* /div indicates the end of a div tag. */
+    </div>
+  </div>
+/* div tags serve as a container that groups html elements and css tags. */
+  <div class="emoji">
+    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/81/house-building_1f3e0.png">
+  </div>
+/* h2 tags indicate the second header, having a fontsize smaller than h1. */
+  <h2> I'm not HOME right now.</h2>
+/* pre tags can be used to keep the spacing between words and the indents. */
+  <pre> But if you want to
+                            leave
+                                       a
+                                                   m e s s a g e</pre>
+/* div tags serve as a container that groups html elements and css tags. */
+  <div class="message">
+    <img src="https://cdn.shopify.com/s/files/1/1061/1924/products/Speech_Bubble_Emoji_1024x1024.png?v=1571606035">
+  </div>
+
+/* h3 tags indicate the third header, having a fontsize smaller than h2. */
+  <h3> <i>Just start talking at the sound of the tone. </i> </h3>
+  /* div tags serve as a container that groups html elements and css tags. */
+  <div class="gradient">
+  /* h4 tags indicate the 4th header, having a font size smaller than h3. */
+  /* a tags are used to add links. */
+    <h4> Ah ah ah ah ah <a href="https://kaiwenchen0905.github.io/web-nyu-idm/here-come-the-planes"> ah… </a> </h4>
+</body>
+</div>
+
+</html>
+<!-- HTML STOPS here! -->

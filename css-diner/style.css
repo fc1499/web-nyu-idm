@@ -62,7 +62,7 @@ p:last-child {
   color: #623bff;
 }
 
-img {
-  width: 40%;
-  padding: 2em;
+/* I used the Empty selector on Level 25. The empty selector selects elements that don't have any other elements inside of them. I used it to select the img element because it was by itself and had no other elements inside of it. */
+img:empty {
+  width: 60%;
 }

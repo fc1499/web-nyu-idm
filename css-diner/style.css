@@ -16,7 +16,8 @@ body {
   font-size: 2em;
 }
 
-h1 {
+/* I used the Class Selector on Level 6. The class tag simply creates a class name for an HTML element, allowing you to separate and organize them efficiently. In my case, I used the class tag to differentiate my title from the headers. */
+.title {
   font-family: 'Delius Swash Caps', cursive;
   font-size: 3em;
   text-shadow: 5px 5px grey, 10px 10px black;

@@ -16,21 +16,23 @@ body {
   font-size: 2em;
 }
 
-/* I used the Class Selector on Level 6. The class tag simply creates a class name for an HTML element, allowing you to separate and organize them efficiently. In my case, I used the class tag to differentiate my title from the headers. */
+/* I used the Class Selector on Level 6. The class tag simply creates a class name for an HTML element, allowing you to separate and organize them efficiently. In my case, I used the class tag to differentiate my sections for each color from the headers. */
 .title {
   font-family: 'Delius Swash Caps', cursive;
   font-size: 3em;
   text-shadow: 5px 5px grey, 10px 10px black;
 }
 
-h2 {
+/* I used the Last Child selector on Level 15. the First child selector selects the first element inside another element. In my case, it is selecting the h2 tags inside all my color classes. */
+h2:first-child {
   font-size: 70px;
   font-family: 'Dekko', cursive;
   line-height: 50%;
   text-shadow: 5px 5px black;
 }
 
-p {
+/* I used the Last Child selector on Level 17. the Last child selector selects the last element inside another element. In my case, it is selecting the last p tags inside all my color classes. */
+p:last-child {
   font-family: 'Courier Prime', monospace;
   line-height: 100%;
 }

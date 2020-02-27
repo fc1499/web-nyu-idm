@@ -1,0 +1,73 @@
+/* This is default helpul CSS to include - dont edit this part unless... you want to */
+html,
+body {
+  margin: 3%;
+  padding: 0;
+}
+
+body {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  background-color:#003494;
+  animation: stupid 5s infinite;
+}
+
+
+@keyframes stupid {
+  0%   {background-color: #003494;}
+  25%  {background-color: #004d85;}
+  50%  {background-color: #00626b;}
+  100% {background-color: #003494;}
+}
+
+h1 {
+  font-family: 'Delius Swash Caps', cursive;
+  color:white;
+  font-size: 3em;
+  text-shadow: 5px 5px grey, 10px 10px black;
+  position: absolute;
+  top: -40px;
+  right: 550px;
+
+}
+
+div {
+    font-family: 'Courier Prime', monospace;
+    position: absolute;
+    border: 3px solid white;
+    background-color :white;
+    border-radius:20px;
+    width: 170px;
+}
+
+div.first {
+  top: 225px;
+  right: 950px;
+
+}
+
+div.second {
+  top: 550px;
+  right: 1450px;
+}
+
+div.third {
+  top: 850px;
+  right: 950px;
+}
+
+div.fourth {
+  top: 225px;
+  right: 600px;
+}
+
+div.fifth {
+  top: 550px;
+  right: 600px;
+}
+
+div.sixth {
+  top: 850px;
+  right: 600px;
+}

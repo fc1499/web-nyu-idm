@@ -6,6 +6,7 @@ html,
 } */
 
 body {
+  height: 110%;
   color: black;
   /* text-align: center; */
   background-color: #003494;
@@ -47,16 +48,18 @@ h1 {
    padding: 5px 5px;
 }
 
+#eggimage {
+  height: 10%;
+  width: 10%;
+  top: 100px;
+  left: 400px;
+}
 
-#egg:active ~ .eggimage {
+#egg:active ~ #eggimage {
   display: block;
 }
 
-.eggimage {
-  position: absolute;
-  top: 320px;
-  left: 400px;
-}
+
 
 p {
  font-size: 1em;
@@ -68,7 +71,7 @@ p {
  display:none;
 }
 
-.text1{
+#text1{
   text-align: justify;
   position:absolute;
   margin: 40%;
@@ -101,7 +104,7 @@ img {
   width: auto;
 }
 
-.image1 {
+#image1 {
   position: absolute;
   top: 320px;
   left: 400px;
@@ -111,39 +114,39 @@ button:hover {
   background-color: #c4c4c4;
 }
 
-.first:active ~ .image1{
+#first:active ~ #image1{
   display: block;
 }
 
-.first:active ~ .text1{
+#first:active ~ #text1{
   display: block;
 }
-.first {
+#first {
   top: 225px;
   right: 950px;
 }
 
-.second {
+#second {
   top: 550px;
   right: 1450px;
 }
 
-.third {
+#third {
   top: 850px;
   right: 950px;
 }
 
-.fourth {
+#fourth {
   top: 225px;
   right: 600px;
 }
 
-.fifth {
+#fifth {
   top: 550px;
   right: 600px;
 }
 
-.sixth {
+#sixth {
   top: 850px;
   right: 600px;
 }

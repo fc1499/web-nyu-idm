@@ -1,77 +1,149 @@
 /* This is default helpul CSS to include - dont edit this part unless... you want to */
 html,
-body {
+/* body {
   margin: 3%;
   padding: 0;
-}
+} */
 
 body {
   color: black;
-  text-align: center;
-  font-size: 2em;
-  background-color:#003494;
-  animation: stupid 5s infinite;
+  /* text-align: center; */
+  background-color: #003494;
+  animation: gradient 5s infinite;
+  font-family: 'Delius Swash Caps', cursive;
 }
 
+@keyframes gradient {
+  0% {
+    background-color: #003494;
+  }
 
-@keyframes stupid {
-  0%   {background-color: #003494;}
-  25%  {background-color: #004d85;}
-  50%  {background-color: #00626b;}
-  100% {background-color: #003494;}
+  25% {
+    background-color: #004d85;
+  }
+
+  50% {
+    background-color: #00626b;
+  }
+
+  100% {
+    background-color: #003494;
+  }
 }
 
 h1 {
-  font-family: 'Delius Swash Caps', cursive;
-  color:white;
-  font-size: 3em;
+  color: white;
+  font-size: 6em;
   text-shadow: 5px 5px grey, 10px 10px black;
   position: absolute;
   top: -40px;
   right: 550px;
-
 }
 
-div {
-    font-family: 'Courier Prime', monospace;
-    position: absolute;
-    border: 3px solid white;
-    background-color :white;
-    border-radius:20px;
-    width: 170px;
-}
-
-#title {
+#egg {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  font-size:10%;
+   padding: 5px 5px;
 }
-div.first {
+
+
+#egg:active ~ .eggimage {
+  display: block;
+}
+
+.eggimage {
+  position: absolute;
+  top: 320px;
+  left: 400px;
+}
+
+p {
+ font-size: 1em;
+ border: 5px solid black;
+ border-radius: 25px;
+ padding: 5px 15px;
+ /* margin: 40%; */
+ background-color: white;
+ display:none;
+}
+
+.text1{
+  text-align: justify;
+  position:absolute;
+  margin: 40%;
+  top:-30px;
+  left: -300px;
+}
+
+button {
+  background-color: white;
+  font-size: 2em;
+  font-family: 'Courier Prime', monospace;
+  position: absolute;
+  padding: 5px 15px;
+  border-radius: 25px;
+  border-color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #c4c4c4;
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+
+img {
+  border-radius: 20px;
+  display: none;
+  height: 300px;
+  width: auto;
+}
+
+.image1 {
+  position: absolute;
+  top: 320px;
+  left: 400px;
+}
+
+button:hover {
+  background-color: #c4c4c4;
+}
+
+.first:active ~ .image1{
+  display: block;
+}
+
+.first:active ~ .text1{
+  display: block;
+}
+.first {
   top: 225px;
   right: 950px;
-
 }
 
-div.second {
+.second {
   top: 550px;
   right: 1450px;
 }
 
-div.third {
+.third {
   top: 850px;
   right: 950px;
 }
 
-div.fourth {
+.fourth {
   top: 225px;
   right: 600px;
 }
 
-div.fifth {
+.fifth {
   top: 550px;
   right: 600px;
 }
 
-div.sixth {
+.sixth {
   top: 850px;
   right: 600px;
 }

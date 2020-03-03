@@ -11,10 +11,10 @@
 
 <body>
 
-  <h1> My <3 Tattoo</h1>
+  <h1 id="title"> My <3 Tattoo</h1>
 
   <div class="first">06.02.16</div>
-
+      <!-- This is my old high school where I thought of the phrase "everything is <3." When I had to say goodbye to my math teacher/friend/coach, I wrote in a letter, "if there's anything I learned in your class, it's that everything is <3." -->
   <div class="second">06.26.16</div>
 
   <div class="third">08.10.16</div>
@@ -24,6 +24,15 @@
   <div class="fifth">02.14.19</div>
 
   <div class="sixth">12.30.19</div>
+
+<!-- drawing lines -->
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(20, 20);
+ctx.lineTo(20, 100);
+ctx.lineTo(70, 100);
+ctx.stroke();
 
 </body>
 

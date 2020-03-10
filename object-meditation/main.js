@@ -9,6 +9,7 @@ $(document).ready(function() {
 
   $("#first_img").click(function() {
     $("#first_img").css("display", "none");
+      $("#line").css("display", "block");
     $("#text1").css("display", "none");
     $("#second").css("display", "block");
     $("#morning").css("display", "block");
@@ -24,6 +25,7 @@ $(document).ready(function() {
 
   $("#second_img").click(function() {
     $("#second_img").css("display", "none");
+    $("#line2").css("display", "block");
     $("#text2").css("display", "none");
     $("#third").css("display", "block");
     $("#morning").css("display", "block");
@@ -53,6 +55,7 @@ $(document).ready(function() {
   });
 
   $("#fourth_img").click(function() {
+    $("#line3").css("display", "block");
     $("#fourth_img").css("display", "none");
     $("#text4").css("display", "none");
     $("#fifth").css("display", "block");
@@ -68,6 +71,7 @@ $(document).ready(function() {
   });
 
   $("#fifth_img").click(function() {
+        $("#line4").css("display", "block");
     $("#fifth_img").css("display", "none");
     $("#text5").css("display", "none");
     $("#sixth").css("display", "block");

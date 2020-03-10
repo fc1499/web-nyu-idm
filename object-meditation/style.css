@@ -55,6 +55,42 @@ img {
   margin: auto;
 }
 
+#line {
+  display: none;
+  width: 23%;
+  border: 0;
+  position: absolute;
+  top: 39%;
+  left: 18%;
+}
+
+#line2 {
+  display: none;
+  width: 23%;
+  border: 0;
+  position: absolute;
+  top: 72%;
+  left: 18%;
+}
+
+#line3 {
+display: none;
+width: 16.5%;
+border: 0;
+position: absolute;
+top: 33%;
+left: 66%;
+}
+
+#line4 {
+  display: none;
+      width: 16.5%;
+      border: 0;
+      position: absolute;
+      top: 67.5%;
+      left: 66%;
+}
+
 #first_img {
   display: none;
   position: absolute;
@@ -114,6 +150,7 @@ h1 {
 p {
   font-family: 'Courier Prime', monospace;
   font-size: 2em;
+  right:1%;
   border: 5px solid black;
   border-radius: 25px;
   padding: 5px 15px;
@@ -195,7 +232,6 @@ button:hover {
   background-color: #c4c4c4;
 }
 
-
 #morning {
   padding: 1px 11px;
   font-size:15px;
@@ -214,6 +250,7 @@ button:hover {
   margin-left:8%;
   top:1em;
 }
+
 #first {
   justify-content: flex-end;
   margin-right: 50%;
@@ -239,7 +276,7 @@ button:hover {
   display: none;
   justify-content: flex-end;
   margin-left: 55%;
-  margin-top: -42.7%;
+  margin-top: -43.7%;
   margin-bottom: auto;
 }
 

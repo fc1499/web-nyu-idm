@@ -4,8 +4,9 @@ body {
   margin: 3%;
   padding: 0;
 }
+
 body {
-    padding: 0;
+  padding: 0;
   height: 102%;
   color: black;
   background-color: #003494;
@@ -74,21 +75,21 @@ img {
 }
 
 #line3 {
-display: none;
-width: 16.5%;
-border: 0;
-position: absolute;
-top: 33%;
-left: 66%;
+  display: none;
+  width: 16.5%;
+  border: 0;
+  position: absolute;
+  top: 33%;
+  left: 66%;
 }
 
 #line4 {
   display: none;
-      width: 16.5%;
-      border: 0;
-      position: absolute;
-      top: 67.5%;
-      left: 66%;
+  width: 16.5%;
+  border: 0;
+  position: absolute;
+  top: 67.5%;
+  left: 66%;
 }
 
 #first_img {
@@ -141,7 +142,13 @@ h1 {
   justify-content: center;
 }
 
+.wrap {
+  top:30%
+  bottom:30%:
+}
 .container {
+  height: 100%
+  width:100%;
   display: flex;
   flex-wrap: wrap;
   align-self: flex-start;
@@ -150,7 +157,7 @@ h1 {
 p {
   font-family: 'Courier Prime', monospace;
   font-size: 2em;
-  right:1%;
+  right: 1%;
   border: 5px solid black;
   border-radius: 25px;
   padding: 5px 15px;
@@ -234,24 +241,25 @@ button:hover {
 
 #morning {
   padding: 1px 11px;
-  font-size:15px;
+  font-size: 15px;
   justify-content: flex-end;
-  position:absolute;
-  margin-left:.3%;
-  top:1em;
+  position: absolute;
+  margin-left: .3%;
+  top: 1em;
 }
 
 #night {
-    padding: 1px 11px;
-      text-align: center;
-  font-size:15px;
+  padding: 1px 11px;
+  text-align: center;
+  font-size: 15px;
   justify-content: flex-end;
-  position:absolute;
-  margin-left:8%;
-  top:1em;
+  position: absolute;
+  margin-left: 8%;
+  top: 1em;
 }
 
 #first {
+
   justify-content: flex-end;
   margin-right: 50%;
   margin-left: 33%;

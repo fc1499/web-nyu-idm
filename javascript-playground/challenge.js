@@ -9,11 +9,21 @@ let myAlphabet = ['A', 'B', 'C', 'D','E','F','G'];
 
 // 2. Write a function called myAlphabetLength which console.logs the length of the array
 // push your edits to github!!
-let myAlphabetLength = myAlphabet.length;
-console.log(myAlphabetLength);
-
+function myAlphabetLength(){
+  console.log(myAlphabet.length);
+}
+myAlphabetLength();
 // 3. Within the function also use an if-conditional statement that checks if the number of items within the array are less than 4
 // push your edits to github!!
+function myAlphabetLength(){
+  console.log(myAlphabet.length);
+
+  if(myAlphabet.length < 4)
+      console.log("number of items < 4");
+    else
+    console.log("number of items > 4");
+}
+myAlphabetLength();
 
 // 4. Declare and initialize an array called 'colors' with 5 different string values representing the names of 5 colors of your choosing
 // push your edits to github!!

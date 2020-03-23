@@ -68,7 +68,7 @@ img {
 }
 
 #line {
-  /* display: none; */
+  display: none;
   width: 23%;
   border: 0;
   position: absolute;
@@ -77,7 +77,7 @@ img {
 }
 
 #line2 {
-  /* display: none; */
+  display: none;
   width: 23%;
   border: 0;
   position: absolute;
@@ -86,7 +86,7 @@ img {
 }
 
 #line3 {
-  /* display: none; */
+  display: none;
   width: 16.5%;
   border: 0;
   position: absolute;
@@ -95,7 +95,7 @@ img {
 }
 
 #line4 {
-  /* display: none; */
+  display: none;
   width: 16.5%;
   border: 0;
   position: absolute;
@@ -291,35 +291,35 @@ top:33%;
 }
 
 #second {
-  /* display: none; */
+  display: none;
 position: absolute;
 top:65%;
 left:10%;
 }
 
 #third {
-  /* display: none; */
+  display: none;
   position:absolute;
   left: 35%;
   top:98%;
 }
 
-#fourth {
-  /* display: none; */
+#sixth {
+  display: none;
   position: absolute;
   left: 55%;
   top:33%;
 }
 
 #fifth {
-  /* display: none; */
+  display: none;
   position: absolute;
   left: 55%;
   top:65%;
 }
 
-#sixth {
-  /* display: none; */
+#fourth {
+  display: none;
   position: absolute;
   left: 55%;
   top:98%;
@@ -377,7 +377,7 @@ top: 30%;
   left: 37%;
 }
 
-#fourth {
+#sixth {
   left: 59%;
     top: 30%;
 }
@@ -386,7 +386,7 @@ top: 30%;
   left: 59%;
   top: 39.5%;
 }
-#sixth {
+#fourth {
   left: 59%;
     top: 49%;
 }
@@ -485,7 +485,7 @@ p {
     left: 37%;
   }
 
-  #fourth {
+  #sixth {
     left: 59%;
       top: 30%;
   }
@@ -494,7 +494,7 @@ p {
     left: 59%;
     top: 39.5%;
   }
-  #sixth {
+  #fourth {
     left: 59%;
       top: 49%;
   }
@@ -594,7 +594,7 @@ p {
         left: 37%;
       }
 
-      #fourth {
+      #sixth {
         left: 59%;
           top: 30%;
       }
@@ -603,7 +603,7 @@ p {
         left: 59%;
         top: 39.5%;
       }
-      #sixth {
+      #fourth {
         left: 59%;
           top: 49%;
       }

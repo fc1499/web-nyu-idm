@@ -11,6 +11,7 @@ body {
   height: 102%;
   color: black;
   background-color: #003494;
+  /* allows gifs to be scale to background size without repeating itself, https://stackoverflow.com/questions/31565045/toggle-background-image-html */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

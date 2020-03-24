@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+// CITE: found in playful-website-examples
   $("#first").click(function() {
     $("#first_img").css("display", "block");
     $("#text1").css("display", "block");
@@ -118,11 +118,12 @@ $(document).ready(function() {
         $("body").css('background-color','#003494');
   });
 
+// https://stackoverflow.com/questions/31565045/toggle-background-image-html
   $("#rain").click(function() {
     $("body").toggleClass('BgClass');
   });
 
-
+// https://stackoverflow.com/questions/31565045/toggle-background-image-html
   $("#hearts").click(function() {
   $("body").toggleClass('BgClass2');
   });

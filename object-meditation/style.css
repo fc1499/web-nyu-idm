@@ -18,6 +18,8 @@ body {
   animation: gradient 8s infinite;
   font-family: 'Delius Swash Caps', cursive;
 }
+
+/* TOGGLE: https://stackoverflow.com/questions/31565045/toggle-background-image-html */
 .BgClass {
   background-image:url('images/rain.gif');dfdf
   }
@@ -25,6 +27,8 @@ body {
 .BgClass2 {
   background-image:url('images/heart.gif');
   }
+
+/* ANIMATIONS */
 @keyframes gradient {
   0% {
     background-color: #003494;
@@ -68,6 +72,7 @@ img {
   margin: auto;
 }
 
+/* <3 LINES */
 #line {
   display: none;
   width: 23%;
@@ -103,7 +108,7 @@ img {
   top: 67.5%;
   left: 66%;
 }
-
+/* IMAGES */
 #first_img {
   display: none;
   position: absolute;
@@ -166,6 +171,7 @@ p {
   background-color: white;
 }
 
+/* TEXT */
 #close {
   font-size: 1.5em;
   border:none;
@@ -256,7 +262,8 @@ button:active {
 button:hover {
   background-color: #c4c4c4;
 }
-
+/* FLEX */
+/* BUTTONS */
 #morning {
   justify-content: flex-end;
   position: absolute;
@@ -325,7 +332,7 @@ left:10%;
   left: 55%;
   top:98%;
 }
-
+/* IPHONE 6/7/8 */
 @media only screen and (device-width : 375px) and (device-height : 667px) {
 
   h1 {
@@ -438,6 +445,7 @@ p {
     margin-right: 2%;
   }
 }
+/* IPHONE 6/7/8 PLUS */
 @media only screen and (device-width : 375px) and (device-height : 812px) {
 
   h1 {
@@ -546,6 +554,8 @@ p {
       margin-right: 2%;
   }
 }
+
+/* IPHONE X */
   @media only screen and (device-width : 414px) and (device-height : 736px) {
 
     h1 {

@@ -28,7 +28,7 @@ myAlphabetLength();
 // 4. Declare and initialize an array called 'colors' with 5 different string values representing the names of 5 colors of your choosing
 // push your edits to github!!
 
-let colors = ['red', 'orange', 'yellow', 'green', 'blue'];
+let colors = ['tomato', 'orange', 'banana', 'greenapple', 'blueberry'];
 // 5.  Console.log each item in the array
 // push your edits to github!!
 for (i = 0; i<colors.length; i++) {
